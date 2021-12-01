@@ -195,10 +195,10 @@ void priority()
     {
         p[i].pnum = i + 1;
 
-        printf("\nEnter the burst time of P%d : ", p[i]);
+        printf("\nEnter the burst time of P%d : ", p[i].pnum);
         scanf("%d", &p[i].bt);
 
-        printf("\nEnter the priority of P%d : ", p[i]);
+        printf("\nEnter the priority of P%d : ", p[i].pnum);
         scanf("%d", &p[i].priority);
     }
 
